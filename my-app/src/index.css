@@ -110,9 +110,7 @@ ul{
   height: 97px;
    
 }
-.thumb_list{
-    opacity: 80%;
-}
+
 .slick-dots li{
     float: left;
     height: 95px;
@@ -192,7 +190,7 @@ cursor: hand;
     margin-top: 20px;
 }
 .login_first{
-    background-color:rgb(164, 219, 120);
+    background-color:#8fc31f;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -361,20 +359,33 @@ button{
 */
 
 #main2_right_top{
-   
+    width: 850px;
     margin-top: 0;
     padding-top: 0;
     color: rgb(6, 6, 135);
 }
 #main2_right_top h2{
+    width: 700px;
     height: 40px;
     margin-top: 0;
     padding-left:20px;
    line-height: 40px;
     font-size: 20px;
     border-left: solid 15px rgb(1, 128, 117);
+}
+.main2-col1 h2{
     border-bottom: solid 1px rgb(1, 128, 117);
 }
+.main2-col2 h2{
+    border-bottom: solid 1px rgb(1, 128, 117);
+}
+.main2-col3 h2{
+    border-bottom: solid 1px rgb(1, 128, 117);
+}
+.main2-col4 h2{
+    border-bottom: solid 1px rgb(1, 128, 117);
+}
+
 .accordion__panel{
     height: 100px;
     padding-left: 25px;
@@ -382,7 +393,7 @@ button{
 }
 .main2-col{
     cursor: pointer;
-cursor: hand;
+    cursor: hand;
 }
 .main2-col1{
     margin-right: 32px;
