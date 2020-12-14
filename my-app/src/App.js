@@ -4,11 +4,14 @@ import Nav from './nav.js';
 import Main1 from './main1.js';
 import Main2 from './main2.js';
 import Footer from './footer.js';
+import Copyright from './copyright.js';
 import {BrowserRouter as Router} from 'react-router-dom'
+import ScrollUp from './scroll'
 class App extends Component {
   render() {
     return (
         <>
+       
       <div className="container container1">
       <Header />
     </div>
@@ -26,6 +29,8 @@ class App extends Component {
     <div className="container container5">
       <Footer />
     </div>
+    <Copyright />
+    <ScrollUp />
     
     </>
     )

@@ -61,12 +61,6 @@ class Footer extends Component{
          </div>
          </div>
 
-{/*         <AnchorLink href="#link-top" offset="30" className="link-button">topへ移動</AnchorLink>*/}
-         <footer>
-         <div id="copyright">
-           <p><small>Copyright©︎2018 Seraku Banking Corporation.All Rights Reserved.</small></p>
-         </div>
-         </footer>
          
          </>
          

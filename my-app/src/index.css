@@ -3,10 +3,15 @@
     margin: auto;
 
 }
+button:focus {
+    outline:0;
+}
+
 /*ヘッダー　　　　　　　　　　　　　　　　　　　　　　　　　　　　　*/
 .container1{
     height: 97px;
     font-size: 12px;
+  
 }
 h1{
     float: left;
@@ -70,7 +75,6 @@ float: left;
 /*ナビゲーション　　　　　　　　　　　　　　*/
 .container2{
     height: 47px;
-    
 }
 ul{
     list-style: none;
@@ -79,7 +83,10 @@ ul{
 }
 
 
-
+.nav-item{
+    cursor: pointer;
+    cursor: hand;
+}
 .nav-item:not(:last-child){
     border-right:2px solid #ddd;
     }
@@ -119,14 +126,19 @@ ul{
 .slick-prev{ 
     left: 1%;
     z-index: 1;
+    cursor: pointer;
+cursor: hand;
 }
 .slick-next{ 
     right: 1%;
+    cursor: pointer;
+cursor: hand;
 }
 
 .slick-arrow img{
     width: 33px;
     height: 55px;
+   
 }
 .slick-thumb li img {
     width: 100%;
@@ -256,9 +268,53 @@ button{
   #guide3{
       margin-top: 30px;
   }
+  .modal-login-address{
+    width: 86.5%;
+    height:40px;
+    margin: auto;
+    padding-left: 15px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .modal-login-password{
+    width: 86.5%;
+    height:40px;
+    margin: auto;
+    padding-left: 15px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+.modal-login-button{
+    width: 92.5%;
+    height:40px;
+    margin: auto;
+   display: block;
+   text-align: center;
+    margin-bottom: 30px;
+}
+.password-loss{
+    font-size: 12px;
+    text-align: center;
+}
+.modal-close{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    top: 0;
+    color: #6d6d6d;
+    background-color: #ffffff;
+    display: block;
+   margin: 0 0 0 auto;
+   cursor: pointer;
+   cursor: hand;
+}
+
 
 
 /*メイン2　right                                     */
+/*
 #main2_right_top{
     height: 422px;
     margin-top: 0;
@@ -275,7 +331,7 @@ button{
     border-bottom: solid 1px rgb(1, 128, 117);
 }
 .main2-col1,.main2-col2{
-    height: 244px;
+ 
     width: 409px;
     float: left;
 }
@@ -302,14 +358,54 @@ button{
  }
 
 
+*/
 
+#main2_right_top{
+   
+    margin-top: 0;
+    padding-top: 0;
+    color: rgb(6, 6, 135);
+}
+#main2_right_top h2{
+    height: 40px;
+    margin-top: 0;
+    padding-left:20px;
+   line-height: 40px;
+    font-size: 20px;
+    border-left: solid 15px rgb(1, 128, 117);
+    border-bottom: solid 1px rgb(1, 128, 117);
+}
+.accordion__panel{
+    height: 100px;
+    padding-left: 25px;
+  
+}
+.main2-col{
+    cursor: pointer;
+cursor: hand;
+}
+.main2-col1{
+    margin-right: 32px;
+   
+}
 
+.main2-col3{
+    margin-right: 32px;
+}
+  .main2-col li{ 
+    float: left;
+    width: 173px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+ }
 
 
 
 
 
  #main2_right_bottom{
+     margin-top: 50px;
     height: 650px;
 }
 
@@ -333,6 +429,8 @@ button{
     font-size: 20px;
     background-color:rgb(160, 160, 160);
     float: left;
+    cursor: pointer;
+    cursor: hand;
 }
 
 .tab:not(:last-child){
@@ -413,16 +511,18 @@ button{
   
   /*フッター                */
   .container5{
-    width: 100vw;
+    width: 1260px;
   }
   footer{
     width: 100vw;
     margin: 0;
     padding: 0;
+   position: relative;
   }
   #footer0{
     width: 1260px;
     margin: auto;
+    
   }
   #footer_1{
       height: 350px;
@@ -480,8 +580,18 @@ button{
   }
   
   
-
-
+  .scroll{
+      width: 45px;
+      bottom: 0;
+      right: 1%;
+      position: fixed;
+      cursor: pointer;
+    cursor: hand;
+  }
+  .fa-chevron-circle-up{
+      width: 45px;
+      
+  }
 
 
 

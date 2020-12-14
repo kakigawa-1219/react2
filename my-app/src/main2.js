@@ -1,16 +1,21 @@
 import React , {Component} from 'react'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import ModalWindow from './modal'
+import Accordion_sample from './accordion'
 class Main2 extends Component{
     render(){
        
         return(
          <>
          <div id="main2">
+
+
+
             <div id="main2_left">
                 <div id="login">
                     <h2>インターネットバンキング</h2>
                     <div>せらく銀行インターネットバンキング</div>
-                    <div><button className="login_button login">ログインサービス</button></div>
+                    <ModalWindow />
                     <div><button className="login_button login_first">初めてログインする方</button></div>
                    <div><a href="#">＞パスワード忘れた方はこちら</a></div>
                 </div>
@@ -49,50 +54,8 @@ class Main2 extends Component{
             <div id="main2_right">
 
                 <div id="main2_right_top">
-                <div className="main2-col main2-col1">
-                    <ul>
-                        <h2>個人のお客様</h2>
-
-                        <li>＞口座をひらく</li>
-                        <li>＞住宅ローン</li>
-                        <li>＞投資信託</li>
-                        <li>＞外貨預金</li>
-                        <li>＞バンクイック</li>
-                        <li>＞キャンペーン一覧</li>
-                    </ul>
-                </div>
-
-                <div className="main2-col main2-col2">
-                    <ul>
-                        <h2>法人のお客様</h2>
-
-                        <li>＞口座をひらく</li>
-                        <li>＞でんさい</li>
-                        <li>＞CSRの取り組み</li>
-                        <li>＞地球環境問題への対応</li>
-                        <li>＞CSRの取り組み</li>
-                        <li>＞Global Website</li>
-                    </ul>
-                </div>
-
-                <div className="main2-col main2-col3">
-                    <ul>
-                        <h2>株主・投資家の皆様</h2>
-
-                        <li>＞決算広告</li>
-                        <li>＞社債情報</li>
-                    </ul>
-                </div>
-
-                <div className="main2-col main2-col4">
-                    <ul>
-                        <h2>採用情報</h2>
-
-                        <li>＞新卒採用</li>
-                        <li>＞中途採用</li>
-                        <li>＞海外現地採用</li>
-                    </ul>
-                </div>
+                     <Accordion_sample />
+               
                 </div>
 
 
