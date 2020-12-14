@@ -17,13 +17,20 @@
     "react-slick": "^0.27.13",
     "react-tabs": "^3.1.1",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+     "homepage": "https://kakigawa-1219.github.io/react2/."
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+<<<<<<< HEAD
     "test": "react-scripts test"
  
+=======
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+>>>>>>> 1060208f5bd7cd4b4e61b854ac493cc1db0d9959
   },
   "eslintConfig": {
     "extends": [
