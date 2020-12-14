@@ -17,8 +17,6 @@ function Dropdown2(){
       <li> 電子記録債権・手形関連</li>
     </ul>
 
-
-  
     </>
   )
 }

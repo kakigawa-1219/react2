@@ -13,9 +13,7 @@ function Dropdown3(){
       <li> 決算公告</li>
       <li> 社債情報</li>
     </ul>
-
-
-  
+ 
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Header from './header.js';
-import Nav from './nav.js';
+import Nav from './Nav_lib.js';
 import Main1 from './main1.js';
 import Main2 from './main2.js';
 import Footer from './footer.js';
@@ -13,24 +13,24 @@ class App extends Component {
         <>
        
       <div className="container container1">
-      <Header />
-    </div>
+        <Header />
+      </div>
     <div className="container container2">
-       <Router>
+        <Router>
           <Nav />
         </Router>
     </div>
     <div className="container container3">
-      <Main1 />
+        <Main1 />
     </div>
     <div className="container container4">
-      <Main2 />
+        <Main2 />
     </div>
     <div className="container container5">
-      <Footer />
+        <Footer />
     </div>
-    <Copyright />
-    <ScrollUp />
+        <Copyright />
+        <ScrollUp />
     
     </>
     )

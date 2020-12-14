@@ -7,6 +7,9 @@ button:focus {
     outline:0;
 }
 
+
+
+
 /*ヘッダー　　　　　　　　　　　　　　　　　　　　　　　　　　　　　*/
 .container1{
     height: 97px;
@@ -72,29 +75,18 @@ float: left;
 
 
 
-/*ナビゲーション　　　　　　　　　　　　　　*/
-.container2{
+  /*ナビゲーション　　　　　　　　　　　　　　*/
+  .container2{
     height: 47px;
-}
-ul{
+  }
+  ul{
     list-style: none;
     margin: 0;
     padding: 0;
-}
+  }
+  
 
-
-.nav-item{
-    cursor: pointer;
-    cursor: hand;
-}
-.nav-item:not(:last-child){
-    border-right:2px solid #ddd;
-    }
-
-
-
-
-/*メイン*/
+/*メイン1                        */
 .container3{
     height:505px;
 }
@@ -146,6 +138,11 @@ cursor: hand;
 .slick-thumb li.slick-active img{
     filter: grayscale(0%);
 }
+
+
+
+
+
 /*メイン２                          */
 #main2{
     height: 1070px;
@@ -164,6 +161,9 @@ cursor: hand;
     height: 100%;
     width: 850px;
 }
+
+
+
 
 /*メイン２ left                 */
 #main2_left{

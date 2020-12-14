@@ -14,8 +14,16 @@
     float: left;
     background-color: rgb(6, 6, 135);
     color: #ffffff;
+    cursor: pointer;
+    cursor: hand;
+  }　　　　　　　　　　　　　
+
+.nav-item:not(:last-child){
+  border-right:2px solid #ddd;
   }
-  
+
+
+
   .fa-bars {
     color: #000000;
   }
