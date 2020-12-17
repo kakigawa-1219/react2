@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-
+import './scroll.css'
 class ScrollUp extends Component {
 
   scrollToTop = () => {

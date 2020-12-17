@@ -1,6 +1,7 @@
 import React , {Component} from 'react'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import './main1.css'
 class Main1 extends Component{
     render(){
         return(
@@ -30,9 +31,9 @@ class Main1 extends Component{
                   return(
                   
              <Slider {...settings}>
-                 <div ><img src={"./images/main01.png"}  alt=""></img></div>
-                 <div ><img src={"./images/main02.png"}  alt=""></img></div>
-                 <div ><img src={"./images/main03.png"}  alt=""></img></div>
+                 <div className="main-image"><img src={"./images/main01.png"}  alt=""></img></div>
+                 <div className="main-image"><img src={"./images/main02.png"}  alt=""></img></div>
+                 <div className="main-image"><img src={"./images/main03.png"}  alt=""></img></div>
              
              </Slider>
             

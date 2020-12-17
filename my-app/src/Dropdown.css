@@ -1,5 +1,5 @@
 .dropdown-menu {
-    width:250px;
+    width:200px;
     height: 50px;
     position: absolute;
     list-style: none;
@@ -9,7 +9,7 @@
 
  
   .dropdown-menu li {
-    width:250px;
+    width:200px;
     height: 50px;
     background-color: rgb(7, 128, 165);
     cursor: pointer;

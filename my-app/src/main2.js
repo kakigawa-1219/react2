@@ -1,7 +1,8 @@
 import React , {Component} from 'react'
-import Tab_sum from './Tab_lib'
+import Tab_sum from './Tab'
 import ModalWindow from './modal'
-import Accordion_sample from './accordion'
+import Accordion2 from './accordion2'
+import './main2.css'
 class Main2 extends Component{
     render(){
        
@@ -12,7 +13,7 @@ class Main2 extends Component{
             <div id="main2_left">
                 <div id="login">
                     <h2>インターネットバンキング</h2>
-                    <div>せらく銀行インターネットバンキング</div>
+                    <div >せらく銀行インターネットバンキング</div>
                     <ModalWindow />
                     <div><button className="login_button login_first">初めてログインする方</button></div>
                    <div><a href="#">＞パスワード忘れた方はこちら</a></div>
@@ -52,7 +53,7 @@ class Main2 extends Component{
             <div id="main2_right">
 
                 <div id="main2_right_top">
-                    <Accordion_sample />
+                    <Accordion2 />
                 </div>
 
                 <div id="main2_right_bottom"> 

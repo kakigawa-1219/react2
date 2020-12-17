@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Header from './header.js';
-import Nav from './Nav_lib.js';
+import Nav from './nav.js';
 import Main1 from './main1.js';
 import Main2 from './main2.js';
 import Footer from './footer.js';
@@ -30,7 +30,6 @@ class App extends Component {
         <Footer />
     </div>
         <Copyright />
-        <ScrollUp />
     
     </>
     )

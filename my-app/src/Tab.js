@@ -1,9 +1,8 @@
 import React , {Component} from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-
+import './Tab.css'
 class Tab_sum extends Component{
     render(){
-       
         return(
          <>
     <Tabs className="tabs">
@@ -41,7 +40,7 @@ class Tab_sum extends Component{
        
         })()}
       </TabPanel>
-      <TabPanel>  {(() => {
+      <TabPanel >  {(() => {
         var json = require('./colum.json');
         var json_news = [] 
         for (let i = 0; i < json.length; i++) {

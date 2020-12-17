@@ -1,5 +1,6 @@
 import React , {Component} from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import './footer.css'
 class Footer extends Component{
     render(){
         return(
@@ -52,13 +53,15 @@ class Footer extends Component{
          </div>
          <div id="footer_2">
              <ul>
-                 <li><a href="#">お客様の個人情報保護法について</a></li>
+                 <br></br>
+                 <li><a href="#">お客様の個人情報保護について</a></li>
                  <li><a href="#">金融商品勧誘方針</a></li>
                  <li><a href="#">法人等のお客様の情報について</a></li>
                  <li><a href="#">本サイトのご利用にあたって</a></li>
                  <li><a href="#">反社会勢力に対する基本方針</a></li>
-             </ul>
+            </ul>
          </div>
+         
          </div>
 
          

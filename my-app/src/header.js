@@ -1,9 +1,10 @@
 import React , {Component} from 'react'
-
+import './header.css';
 class Header extends Component{
     render(){
         return(
          <>
+         <header>
          <h1><img src="./images/logo.png" alt="" id="link-top"></img> </h1>
         
          <div id="code">金融機関コード：0917</div>
@@ -13,16 +14,15 @@ class Header extends Component{
              <div id="tyuu"><img src="./images/fontsize_m.png" alt=""></img> </div>
              <div id="dai"><img src="./images/fontsize_l.png" alt=""></img> </div>
          </div>
-         <div id="input">
+     
              <div id="eigo">
                  <div id="global"><u>global site</u></div>
                  <div id="site-map"><u>site map</u></div>
              </div>
-             <div>
-                <div id="search" ><input type="text" value="検索ワードを入力"></input></div> 
+                <div id="search" ><input type="text" placeholder="検索ワードを入力"></input></div> 
                  <input type="image"src="./images/search.png" id="button" alt=""></input> 
-             </div>
-         </div>
+         
+         </header>
          </>
         )
     }
